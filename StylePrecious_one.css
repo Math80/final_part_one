@@ -13,3 +13,14 @@ header{
     background-color: #395064;
     
 }
+
+.list-group-item  {
+    background-color: #E1E6E9;
+    text-align: center;
+    
+}
+
+.tableau {
+    display: flex;
+    justify-content: center;
+}
