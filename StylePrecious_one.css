@@ -30,3 +30,60 @@ nav {
     display: flex;
     justify-content: space-evenly;
 }
+
+/* fonction hover */
+
+
+.reward {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    top: 10px;
+    left: 80px;
+    width:200px;
+    color: black;
+    padding: 7px;
+    font-size: 2em;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);   
+}
+
+.name {
+    position: absolute;
+    z-index: 2;
+    top: 250px;
+    left: 55px;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    width: 250px;
+}
+
+.orange {
+    color: orange;
+}
+
+.card-img-top{
+    opacity:0.7;
+    z-index: 1;
+}
+
+.card:hover .reward {
+    opacity:0.0;
+}
+
+.card:hover .name {
+    position: absolute;
+    z-index: 2;
+    top: 300px;
+    left: 110px;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    width: 150px;
+}
+
+.card:hover {
+    opacity: 1;
+}
+
