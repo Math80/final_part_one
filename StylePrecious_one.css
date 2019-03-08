@@ -1,3 +1,30 @@
+@font-face {
+    font-family: "aniron";
+    src: url("./fonts/anicb___.woff") format("woff");
+    
+}
+
+@font-face {
+    font-family: "party-business";
+    src: url("./fonts/partybusiness.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Tengwar Annatar";
+    src: url("./fonts/tngan.woff") format("woff");
+}
+
+
+p, a, th, td, input, select, textarea, h2 {
+    font-family: "party-business", arial, serif;
+}
+
+
+a, h1, h3, h4, h5 {
+    font-family: aniron, arial, serif;
+}
+
+
 body{
     /* background-color: #4C657A;  */
     background-color: white; 
@@ -6,6 +33,182 @@ body{
 
 header{
     background-color: #395064;
+}
+/* NAVBAR */
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 1.8rem;
+    padding-right: 2rem;
+}
+
+.bg-light{
+    background-color: #f36929 !important;
+}
+
+.navbar-light .navbar-brand{
+    color: #fef5ce;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+    color: #fef5ce;
+    border-right: 1px solid #fef5ce;
+}
+
+
+.nav-link{
+    text-decoration: none;
+}
+
+.nav-link:visited{
+    text-decoration: underline;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.nav-link:active{
+    text-decoration: underline;
+}
+
+/* CAROUSEL */
+
+
+.d-md-block{
+    margin-bottom: 190px;
+}
+
+.h2, h2{
+    font-size: 4rem;
+}
+
+.d-none p{
+    font-size: 2rem;
+    text align: left;
+    padding-left: 
+}
+
+.carousel-caption{
+    text-align: start;
+}
+
+/* fellow */
+
+#fellows{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.fellow-bloc{
+    background-color: green;
+    background-image: url("images_ftp/bg_light.png")!important;
+}
+
+.signe-lien{
+    display: none;
+    font-family: Tengwar Annatar;
+}
+
+.pill_clic a:hover{
+    color: orange;
+}
+
+
+.pill_clic a:visited .signe-lien{
+    color: orange;
+    display: contents;
+}
+
+.pill_clic a:hover .signe-lien{
+    color: orange;
+    display: contents;
+}
+
+.pill_clic a:active .signe-lien{
+    color: orange;
+    display: contents;
+    text-decoration: underline;
+}
+
+.parenthese{
+    font-size: 0.7em;
+}
+
+.signe{
+    color: orange;
+    font-family: Tengwar Annatar;
+    font-size: 1.5em;
+}
+
+
+/* pill */
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    color: orange;
+    background-color: transparent;
+}
+
+.sans{
+    display: none;
+}
+
+.noir{
+    color: black;
+}
+
+
+/* CARDS */
+
+.card-body p{
+    font-size: 2em;
+    color: white;
+}
+
+.card-group .card{
+    background-color: black;
+    border: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    border-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+
+/* REWARD */
+
+.display-4{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.lead{
+    color: white;
+}
+
+.jumbotron{
+    background-image: url("images_ftp/bg_dark.png")!important;
+}
+
+.float{
+    display: flex;
+}
+
+.btn-primary{
+    background-color: white;
+    border-color: white;
+    color: orange;
+}
+
+
+/* BEST HUNTERS  */
+
+
+.besthunters-bloc{
+    background-image: url("images_ftp/bg_light.png")!important;
 }
 
 .foot{
@@ -87,4 +290,20 @@ nav {
 .card:hover {
     opacity: 1;
 }
+
+.mr-3{                                /* tentative photo golum ronde avec border-radius: 50px;  section the ring */
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:85px;
+    height:85px;
+    background:url(images_ftp/gollum_copie.png);
+    no-repeat 0px 0px;
+}
+
+#reward {
+    background-image: url("bg_dark.png");
+}
+
 
