@@ -141,9 +141,15 @@ header{
 
 
 /* pill */
+
+.nav .nav-pills .mb-3{
+    display: flex;
+    justify-content: center;
+}
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
     color: orange;
     background-color: transparent;
+    text-decoration: underline;
 }
 
 .sans{
