@@ -113,12 +113,12 @@ header{
 }
 
 .pill_clic a:hover{
-    color: orange;
+    color: #f36929;
 }
 
 
 .pill_clic a:focus .signe-lien{
-    color: orange;
+    color: #f36929;
     display: contents;
     text-decoration: underline;
 }
@@ -128,13 +128,13 @@ header{
 }
 
 .pill_clic a:hover .signe-lien{
-    color: orange;
+    color: #f36929;
     display: contents;
     text-decoration: underline;
 }
 
 .pill_clic a:active .signe-lien{
-    color: orange;
+    color: #f36929;
     display: contents;
     text-decoration: underline;
 }
@@ -144,7 +144,7 @@ header{
 }
 
 .signe{
-    color: orange;
+    color: #f36929;
     font-family: Tengwar Annatar;
     font-size: 1.5em;
 }
@@ -152,7 +152,7 @@ header{
 
 /* pill */
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
-    color: orange;
+    color: #f36929;
     background-color: transparent;
 }
 
@@ -201,6 +201,7 @@ header{
 
 .jumbotron{
     background-image: url("images_ftp/bg_dark.png")!important;
+    margin-bottom: 0rem;
 }
 
 .float{
@@ -216,7 +217,7 @@ header{
 .btn-primary{
     background-color: white;
     border-color: white;
-    color: orange;
+    color: #f36929;
 }
 
 .btn-primary:hover{
@@ -245,6 +246,7 @@ header{
 
 .besthunters-bloc{
     background-image: url("images_ftp/bg_light.png")!important;
+    margin-bottom: -2rem;
 }
 
 .media-body a{
@@ -312,7 +314,7 @@ nav {
 }
 
 .orange {
-    color: orange;
+    color: #f36929;
 }
 
 .card-img-top{
@@ -339,7 +341,7 @@ nav {
     opacity: 1;
 }
 
-/*   MEDIA QUERIES   */
+/*   MEDIA QUERIES  FOR CARDS/IMAGES */
 
 @media screen and (max-width: 1201px) {
     .reward {
@@ -514,8 +516,56 @@ nav {
     font-size: 2em;
     width: 50%;
 }
-
 }
+
+/*
+#reward {
+    background-image: url("bg_dark.png");
+}
+*/
+
+
+/*  THE RING   */
+
+.thering-bloc{
+    background-image: url("images_ftp/bg_dark.png");
+    padding-top: 5rem;
+    padding-bottom: 0.5rem;
+}
+.thering-bloc > h3{
+    padding-left: 2rem;
+    color: white;
+}
+.thering-bloc .card{
+    margin: 3rem;
+    border-top-left-radius: 2.25rem;
+    border-top-right-radius: 2.25rem;
+    border: none;
+}
+
+.card-header{
+    background-color: #f36929;
+    border-top-left-radius: 2.25rem!important;
+    border-top-right-radius: 2.25rem!important;
+}
+
+.card-body p{
+    color: #565454;
+}
+
+.card-body >img{
+    border-radius: 55%!important;   
+}
+
+.card-body{
+    display: flex;
+}
+
+.card-header .card-body{
+    background-color: grey;
+}
+
+
 /*
 .mr-3{                                /* tentative photo golum ronde avec border-radius: 50px;  section the ring
     overflow:hidden;
@@ -528,8 +578,5 @@ nav {
     no-repeat 0px 0px;
 }
 */
-#reward {
-    background-image: url("bg_dark.png");
-}
 
 
